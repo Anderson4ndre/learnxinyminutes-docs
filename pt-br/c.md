@@ -510,6 +510,13 @@ struct retangulo {
 void funcao_1()
 {
     struct retangulo meu_retan;
+    
+    //INICIALIZANDO STRUCTS
+    //estruturas na ordem que aparecem
+    struct retangulo retangulo1 = {10, 20};
+    //Independente da ordem
+    struct retangulo retangulo2 = {.largura = 20, .altura = 10};
+
 
     // Acesse os membros da estrutura com .
     meu_retan.altura = 10;
